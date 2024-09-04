@@ -26,8 +26,12 @@ export class AppComponent {
     console.log('clickXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX');
   }
 
-  onKeyUp(newDinamicText: string){
+  onKeyUpName(newDinamicText: string){
     // console.log('hola mundo' + dinamicText);
-    this.ObjUserTest.name = newDinamicText;
+    this.ObjUserTest.name = newDinamicText;    
+  }
+
+  onKeyUpSurname(newDinamicText: string){        
+    this.ObjUserTest.surname = newDinamicText;
   }
 }
