@@ -22,20 +22,20 @@ export class AppComponent {
     address: '1116654 Eltham',
   };
 
-  onClick(){
-    console.log('clickXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX');
-  }
+  // onClick(){
+  //   console.log('clickXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX');
+  // }
 
   onKeyUpName(newDinamicText: string){
     // console.log('hola mundo' + dinamicText);
     this.ObjUserTest.name = newDinamicText;    
-  }
+  };
 
   onKeyUpSurname(newDinamicText: string){        
     this.ObjUserTest.surname = newDinamicText;
-  }
+  };
 
   onKeyUpAge(newDinamicAge: string){        
     this.ObjUserTest.age = parseInt (newDinamicAge);
-  }
+  };
 }
