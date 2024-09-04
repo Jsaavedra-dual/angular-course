@@ -34,4 +34,8 @@ export class AppComponent {
   onKeyUpSurname(newDinamicText: string){        
     this.ObjUserTest.surname = newDinamicText;
   }
+
+  onKeyUpAge(newDinamicAge: string){        
+    this.ObjUserTest.age = parseInt (newDinamicAge);
+  }
 }
