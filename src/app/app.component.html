@@ -225,10 +225,14 @@
           <clipPath id="a"><path fill="#fff" d="M0 0h982v239H0z" /></clipPath>
         </defs>
       </svg>
+
+
       <!-- <img width="300" alt="Angular logo" src="..Angular Course\angular-course\public\angularLogo.jpg"> -->
       <!-- <img width="300" alt="AngularLogo" (click)="onClick()" src="angularLogo.jpg/angularLogo.jpg"> -->
-      <h1>Hello, {{ title }}</h1>
-      Congratulations! Your app is running. 🎉<br>
+      <h1>Hello, {{ title }}</h1>      
+
+      <app-course-card></app-course-card>      
+
       <p>Static value: {{staticText}}</p>
       <p>Test Values</p>
       ID: {{ObjUserTest.id}}<br>      
@@ -241,6 +245,10 @@
       New Name: <input [value]="ObjUserTest.name" (keyup)="onKeyUpName(dinamicTextName.value)" #dinamicTextName ><br>   
       New Surname: <input [value]="ObjUserTest.surname" (keyup)="onKeyUpSurname(dinamicTextSurname.value)" #dinamicTextSurname ><br>  
       New Age: <input [value]="ObjUserTest.age" (keyup)="onKeyUpAge(dinamicTextAge.value)" #dinamicTextAge ><br>  
+
+      
+
+
 
     </div>
     <div class="divider" role="separator" aria-label="Divider"></div>
